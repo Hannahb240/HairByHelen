@@ -96,7 +96,7 @@ public class AddClientJFrame extends javax.swing.JFrame {
         try
         {
          //Set up the connection
-         Connection con = DriverManager.getConnection("jdbc:mysql://localhost/hairbyhelen", "root", "2095ratlol");
+         Connection con = DriverManager.getConnection("jdbc:mysql://localhost/hairbyhelen", "root", "***");
          Statement stmt = (Statement) con.createStatement();
          Class.forName("com.mysql.jdbc.Driver");
          
